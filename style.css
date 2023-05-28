@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*dark e light mode*/
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile-dark-image.jpg);
@@ -24,6 +25,7 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 
+/*corpo*/
 body {
   background: var(--bg-url) no-repeat center/cover;
   height: 100vh;
